@@ -11,7 +11,7 @@ set(CMAKE_BUILD_TYPE Release)
 
 find_package(catkin REQUIRED COMPONENTS
   cv_bridge
-  OpenCV
+  opencv3_catkin
   dynamic_reconfigure
   sensor_msgs
   image_transport
